@@ -37,6 +37,8 @@ builder.Services.AddCors(options =>
     );
 });
 
+builder.WebHost.UseUrls("http://*:80");
+
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
     .WriteTo.File("logs.txt", rollingInterval: RollingInterval.Day)
