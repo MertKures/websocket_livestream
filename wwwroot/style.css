@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
